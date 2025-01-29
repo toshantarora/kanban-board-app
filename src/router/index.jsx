@@ -6,7 +6,11 @@ const Routers = () => {
     <>
       <Routes>
         {routes?.map((route) => (
-          <Route key={route?.routeId} path={route.path} element={route.component} />
+          <Route
+            key={route?.routeId}
+            path={route.path}
+            element={route.component}
+          />
         ))}
       </Routes>
     </>

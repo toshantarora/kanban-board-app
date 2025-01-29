@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@atlaskit/pragmatic-drag-and-drop": "^1.4.0",
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
     "@tailwindcss/vite": "^4.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
