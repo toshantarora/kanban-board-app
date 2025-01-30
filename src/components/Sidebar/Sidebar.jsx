@@ -51,8 +51,8 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen, navigation }) => {
                             href={item.href}
                             className={classNames(
                               item.current
-                                ? "bg-gray-50 text-indigo-600"
-                                : "text-gray-700 hover:bg-gray-50 hover:text-indigo-600",
+                                ? " text-amber-400"
+                                : "text-gray-700  hover:text-amber-400",
                               "group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold"
                             )}
                           >
@@ -60,8 +60,8 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen, navigation }) => {
                               aria-hidden="true"
                               className={classNames(
                                 item.current
-                                  ? "text-indigo-600"
-                                  : "text-gray-400 group-hover:text-indigo-600",
+                                  ? "text-amber-400"
+                                  : "text-gray-400 group-hover:text-amber-400",
                                 "size-6 shrink-0"
                               )}
                             />

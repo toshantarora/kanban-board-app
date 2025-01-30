@@ -13,8 +13,8 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 const navigation = [
-  { name: "Search", href: "/", icon: MagnifyingGlassIcon, current: true },
-  { name: "Tender Tasks", href: "/", icon: RectangleGroupIcon, current: false },
+  { name: "Search", href: "/", icon: MagnifyingGlassIcon, current: false },
+  { name: "Tender Tasks", href: "/", icon: RectangleGroupIcon, current: true },
   { name: "Progress", href: "/", icon: ArrowTrendingUpIcon, current: false },
   { name: "Connect", href: "/", icon: PhoneIcon, current: false },
 ];
@@ -51,8 +51,8 @@ const Layout = ({children}) => {
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? "bg-gray-50 text-indigo-600"
-                            : "text-gray-700 hover:bg-gray-50 hover:text-indigo-600",
+                            ? "text-amber-400"
+                            : "text-gray-700 hover:text-amber-400",
                           "group flex gap-x-3 rounded-md p-2 text-sm/6 font-semibold"
                         )}
                       >
@@ -60,8 +60,8 @@ const Layout = ({children}) => {
                           aria-hidden="true"
                           className={classNames(
                             item.current
-                              ? "text-indigo-600"
-                              : "text-gray-400 group-hover:text-indigo-600",
+                              ? "text-amber-400"
+                              : "text-gray-400 group-hover:text-amber-400",
                             "size-6 shrink-0"
                           )}
                         />
