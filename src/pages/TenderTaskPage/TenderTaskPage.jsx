@@ -2,6 +2,8 @@ import TenderTaskHeader from "./components/TenderTaskHeader/TenderTaskHeader";
 import { AdjustmentsVerticalIcon } from "@heroicons/react/24/outline";
 import ViewTabs from "./components/ViewTabs/ViewTabs";
 import { useState } from "react";
+// import KanbanBoard from "./components/KanbanBoard/KanbanBoard";
+import KanbanBoard from "./components/KanbanBoard/KanbanBoard";
 const TenderTaskPage = () => {
   const [activeTab, setActiveTab] = useState("board");
   return (
@@ -38,7 +40,7 @@ const TenderTaskPage = () => {
           </div>
         </div>
         <div>
-           
+           <KanbanBoard/>
         </div>
       </div>
     </div>

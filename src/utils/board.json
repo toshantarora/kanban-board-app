@@ -1,0 +1,63 @@
+{
+  "name": "My board",
+  "columns": [
+    {
+      "id": "to-do",
+      "name": "To-Do List",
+      "items": [
+        {
+          "id": "1",
+          "title": "Construction Tender 1",
+          "description": "Description goes here about the tender",
+          "priority": "High",
+          "status": "In Progress",
+          "dueDate": "22 Dec 24",
+          "commentsCount": 12,
+          "attachmentsCount": 1
+        },
+        {
+          "id": "2",
+          "title": "Construction Tender 2",
+          "description": "Description goes here about the tender",
+          "status": "Not Started",
+          "priority": "High",
+          "dueDate": "22 Dec 24",
+          "commentsCount": 12,
+          "attachmentsCount": 3
+        }
+      ]
+    },
+    {
+      "id": "in-progress",
+      "name": "In Progress",
+      "items": [
+        {
+          "id": "3",
+          "title": "Construction Tender 3",
+          "description": "Description goes here about the tender",
+          "status": "In Progress",
+          "priority": "Low",
+          "dueDate": "22 Dec 24",
+          "commentsCount": 12,
+          "attachmentsCount": 3
+        }
+      ]
+    },
+    {
+      "id": "not-started",
+      "name": "Not Started",
+      "items": [
+        {
+          "id": "4",
+          "title": "Construction Tender 4",
+          "description": "Description goes here about the tender",
+          "status": "In Progress",
+          "priority": "Low",
+          "dueDate": "22 Dec 24",
+          "commentsCount": 0,
+          "attachmentsCount": 0
+        }
+      ]
+    }
+  ]
+}
